@@ -110,7 +110,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     <p>
        
         <i class="fab fa-facebook"></i>
-        <a href="https://www.facebook.com/LeCheese01" target="_blank">Eternal Legacy Facebook</a>
+        <a href="" target="_blank">Eternal Legacy Facebook</a>
     </p>
     <p>
        
