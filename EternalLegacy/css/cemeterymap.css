@@ -1,0 +1,238 @@
+body {
+	padding-top: 56px;
+    background-color: #f4f4f0;
+    font-family: "Asap", sans-serif;
+    color: #333;
+  	font-size: 16px;
+}
+
+.container {
+    padding: 20px;
+    margin: 0;
+}
+
+.map-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.graveyard-area {
+            position: relative;
+            display: inline-block;
+}
+.graveyard-area:hover .grave-details-container {
+            display: block;
+}
+		
+		.graveyard-area {
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+    border: 1px solid #9e8b7b;
+    border-radius: 5px;
+    transition: box-shadow 0.3s;
+    min-height: 200px;
+    box-shadow: 10px 10px 20px rgba(0, 0.3, 0.3, 0.3); 
+}
+	
+.graveyard-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.graveyard-item {
+    width: calc(33.33% - 20px); 
+    margin-bottom: 20px;
+}
+       .graveyard-image {
+	max-width: 100%;
+    height: auto;
+    width: 100%;
+    border-radius: 5px;
+}
+
+        .grave-details {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            margin-top: 60px;
+            margin-left: 20px; 
+            box-shadow: 10px 10px 20px rgba(2, 0.3, 0.3, 0.4);
+        }
+
+.grave-details-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 20px rgba(2, 0.3, 0.3, 0.4);
+    z-index: 999;
+}
+
+.col-md-8 {
+    padding-right: 20px; 
+}
+
+      .page-top {
+    margin-top: 85px;
+}
+
+	.navbar {
+		background-color: White !important;
+		padding: 20px; 
+		box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+		margin-top: -55px;
+	}
+
+	.navbar-brand, .navbar-brand:hover {
+		color: #009933 !important;
+		font-family: 'Roboto Slab', serif;
+		font-size: 42px;
+		line-height: 1.4em;
+		padding: 0;
+		margin-right: 20px; 
+	}
+
+	.navbar-nav {
+		display: flex;
+		align-items: center;
+	}
+
+	.navbar-nav .nav-item {
+		margin-left: 20px; 
+	}
+
+	
+	@media (min-width: 768px) {
+		.navbar-nav .nav-item {
+			margin-right: -50px;
+		}
+	}
+
+	.navbar-nav .nav-link {
+		color: #000 !important;
+		font-family: 'Poppins', sans-serif;
+		font-weight: 700; 
+		font-size: 22px;
+		margin-right: 20px; 
+		transition: color 0.3s; 
+	}
+
+	.navbar-nav .nav-link:hover {
+    color: #009933 !important; 
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: 700; 
+}
+
+	.navbar-brand img {
+		width: 340px;
+		height: 90px; 
+		margin-right: 600px; 
+		margin-top: -18px;
+		
+	}
+		
+        .navbar-brand, .navbar-brand:hover {
+			color: #009933 !important; 
+			font-family: 'Playfair Display', sans-serif;
+			font-size: 42px;
+			line-height: 1.4em;
+			padding: 0;
+			margin-right: 20px;
+			margin-left: 140px;
+		}
+		
+		.nav-link {
+			color: #000 !important;
+			font-family: 'Playfair Display', sans-serif;
+			font-size: 22px;
+			margin-right: 50px;
+			transition: color 0.3s; 
+			margin-right: 50px; 
+			margin-left: 50px;
+		}
+
+		
+        .navbar-dark .navbar-toggler-icon {
+            border-color: #fff;
+			
+        }
+
+        .navbar-dark .navbar-toggler-icon:focus {
+            outline: none;
+        }
+
+        .navbar-dark .navbar-toggler:focus {
+            outline: none;
+        }
+
+        .navbar-toggler {
+            padding: 0.5rem 1rem; 
+            font-size: 1.5rem; 
+            line-height: 1.5;
+        }
+
+        .navbar-nav .nav-link {
+            color: #fff; 
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: #dcdad5; 
+        }
+		.header {
+		  text-align: center;
+		  padding: 20px;
+		}
+		.header1 {
+		  text-align: center;
+		  padding: 0px;
+		  margin-top: -19px;
+		}
+
+		.header h1 {
+		  color: #486173;
+		  font-family: 'Playfair Display', sans-serif;
+          font-size: 52px;
+          line-height: 1.4em;
+		  padding: 0;
+		  margin: 0;
+		}
+
+		.header p {
+			color: #BAAC7B;
+			font-family: 'Bad Script', cursive;
+			font-size: 22px;
+			font-weight: 500;
+			letter-spacing: -0.4px;
+		}
+		.section p{
+			color: #486173;
+			font-family: 'Playfair Display', Sans-serif;
+			font-size: 50px;
+			text-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+		}
+		
+		.line {
+		  display: flex;
+		  justify-content: center;
+		  align-items: center;
+		  height: 100vh;
+		}
+		@media (max-width: 768px) {
+   
+    body {
+        padding-top: 56px;
+    }
+
+    .navbar {
+        margin-top: 0;
+    }
+
+}
