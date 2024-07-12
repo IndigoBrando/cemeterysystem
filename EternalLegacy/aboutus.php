@@ -199,32 +199,32 @@ include("header.php");
       <div class="row">
     <div class="col-lg-4 text-center mb-5 mx-auto">
         <img src="./Pictures/Andri.jpg" class="bd-placeholder-img rounded-circle mx-auto img-fluid" alt="Cemetery Image" width="200" height="200" aria-hidden="true">
-        <h2>Andrei Christian L. Lobo</h2>
-        <p>Programmer / Tester</p>
+        <h2>/h2>
+        <p></p>
     </div>
     
     <div class="col-lg-4 text-center mb-5 mx-auto">
         <img src="./Pictures/Blessie.jpg" class="bd-placeholder-img rounded-circle mx-auto img-fluid" alt="Cemetery Image" width="200" height="200" aria-hidden="true">
-        <h2>Blessie Mae P. Espina</h2>
-        <p>Programmer / Front End Designer</p>
+        <h2></h2>
+        <p></p>
     </div>
     
     <div class="col-lg-4 text-center mb-5 mx-auto">
         <img src="./Pictures/Baylaa.jpg" class="bd-placeholder-img rounded-circle mx-auto img-fluid" alt="Cemetery Image" width="200" height="200" aria-hidden="true">
-        <h2>Marjohn M. Bayla</h2>
-        <p>Head Programmer</p>
+        <h2></h2>
+        <p></p>
     </div>
     
     <div class="col-lg-4 text-center mx-auto mt-5">
         <img src="./Pictures/chan.png" class="bd-placeholder-img rounded-circle mx-auto img-fluid" alt="Cemetery Image" width="200" height="200" aria-hidden="true">
-        <h2>Christian Paul P. Malimit</h2>
-        <p>Admin / Database Head</p>
+        <h2></h2>
+        <p></p>
     </div>
     
     <div class="col-lg-4 text-center mx-auto mt-5">
-        <img src="./Pictures/Kyong.jpg" class="bd-placeholder-img rounded-circle mx-auto img-fluid" alt="Cemetery Image" width="200" height="200" aria-hidden="true">
-        <h2>Remigio Aguinaldo III</h2>
-        <p>Programmer / Documentator</p>
+        <img src="./Pictures/" class="bd-placeholder-img rounded-circle mx-auto img-fluid" alt="Cemetery Image" width="200" height="200" aria-hidden="true">
+        <h2></h2>
+        <p></p>
     </div>
 </div>
 
